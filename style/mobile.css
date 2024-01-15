@@ -1,0 +1,50 @@
+/* This style only for mobile */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .gap > * {
+    margin-bottom: 15px;
+  }
+  .header {
+    margin-top: 30px;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar i {
+    display: block;
+    font-size: 30px;
+  }
+  .explore-travel {
+    /* background-size: cover; */
+    width: 100%;
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+  }
+  .main-heading {
+    font-size: 1.5rem;
+  }
+  .explore-content {
+    top: 55%;
+    width: 100%;
+    text-align: center;
+  }
+  .explore-content .explore-input {
+    width: 90%;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .explore-content .explore-input input,
+  select,
+  button {
+    width: 100%;
+    margin-bottom: 9px;
+    height: 60px;
+    border-radius: 8px;
+  }
+}

@@ -1,7 +1,6 @@
-/* Shared style */
 /* font style */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
-
+/* Shared style */
 * {
   margin: 0;
   padding: 0;
@@ -25,11 +24,41 @@ body {
 span {
   color: #ff5400;
 }
+.main-heading {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.paragraph-font {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3rem; /* 162.5% */
+}
+.gap > * {
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #ff5400;
+  color: #fff;
+  padding: 2px 0;
+}
 /* Header section start */
+.header {
+  margin: 50px auto;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navbar i {
+  display: none;
 }
 .navbar .nav-logo {
   display: flex;
@@ -53,4 +82,66 @@ span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.navbar ul li a:hover {
+  color: #ff5400;
+}
+
+.explore-travel {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group 13 (1) (1).png");
+  background-size: 100%;
+  min-height: 490px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-top: 20px;
+
+  border-radius: 12px;
+  position: relative;
+}
+.explore-content {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  width: 60%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.explore-content .explore-input {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 60px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.explore-input input,
+select,
+button {
+  width: 115px;
+  background-color: #fff;
+  border-radius: 3px;
+
+  outline: none;
+  border: none;
+  height: 38px;
+  margin-left: 20px;
+  padding: 10px;
+  color: rgba(19, 19, 24, 0.5);
+}
+.explore-content p {
+  padding: 0px 20px;
 }
