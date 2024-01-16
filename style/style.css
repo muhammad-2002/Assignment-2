@@ -353,8 +353,8 @@ button {
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  bottom: 60px;
-  left: 300px;
+  bottom: 15%;
+  left: 47%;
 }
 .button h2 {
   color: #fff;
@@ -412,6 +412,23 @@ button {
 .upcoming-event {
   margin-bottom: 70px;
 }
+/* parpect place */
+.why-choose-us {
+  margin: 80px auto;
+}
+.pragraph {
+  text-align: center;
+}
+.perfect-place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.perfect-place-heading .btn {
+  margin: 0px;
+}
+
 /* footer section start */
 .footer-container {
   width: 70%;

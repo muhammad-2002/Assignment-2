@@ -100,7 +100,6 @@
   .place-1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    border: 2px solid rebeccapurple;
   }
   .place-2 {
     grid-column: 1 / span 1;
@@ -143,7 +142,8 @@
   .button {
     width: 204px;
     height: 100px;
-    left: 350px;
+    left: 60%;
+    bottom: 15%;
   }
   /* event upcoming */
   .event-container {
@@ -156,6 +156,13 @@
   }
   .upcoming-event {
     margin-bottom: 550px;
+  }
+  /* parfect place */
+  .perfect-place {
+    flex-direction: column;
+  }
+  .perfect-place-heading .btn {
+    width: 150px;
   }
   /* footer section start */
 
@@ -177,8 +184,19 @@
   .button {
     width: 200px;
     height: 80px;
-    left: 130px;
-    bottom: 40px;
+    left: 43%;
+    bottom: 20%;
+  }
+  .upcoming-event {
+    margin-bottom: 400px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .button {
+    width: 200px;
+    height: 80px;
+    left: 48%;
+    bottom: 20%;
   }
   .upcoming-event {
     margin-bottom: 400px;
