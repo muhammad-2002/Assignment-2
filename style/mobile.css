@@ -84,7 +84,11 @@
   .why-choose-us-card .card {
     width: 100%;
   }
-
+  /* destination section */
+  .destination-photo {
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
   /* Newsletter-section */
 
   .Newsletter-section {

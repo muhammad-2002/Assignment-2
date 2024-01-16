@@ -186,23 +186,54 @@ button {
   margin-left: 0px;
 }
 /* chose our  Destination*/
-/* .place-6 {
-  background-color: #131318;
-}
-.destination-photo img {
-  width: 100%;
-  height: 100%;
+.destination-heading {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .destination-photo {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
+}
+.destination-photo img {
+  width: 100%;
+  height: 100%;
 }
 .place-1 {
-  grid-column: 1 / span 7;
+  grid-column: 1 / span 6;
   grid-row: 1 / span 1;
 }
+.place-2 {
+  grid-column: 7 / span 6;
+  grid-row: 1 / span 1;
+}
+.place-3 {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+}
+.place-4 {
+  grid-column: 5 / span 5;
+  grid-row: 2 / span 1;
+}
+.place-5 {
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
+}
+.place-6 {
+  grid-column: 1 / span 5;
+}
+.place-7 {
+  grid-column: 6 / span 7;
+}
+/* .place-6 {
+  background-color: #131318;
+}
+
+
+
 .place-2 {
   grid-column: 7 / span 12;
   grid-row: 1/1;
@@ -231,11 +262,7 @@ button {
   grid-row: 2 / span 2;
 } 
 
- .destination-heading {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-}
+
 .destination-photo {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
