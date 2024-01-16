@@ -72,13 +72,49 @@
     height: 38px;
     border-radius: 5px;
   }
+  .banner-image-1,
+  .banner-image-2,
+  .banner-image-3 {
+    width: 100%;
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  .content {
+    margin-top: 140px;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .perfect-place {
+    flex-direction: column;
+  }
+  .perfect-place-heading .btn {
+    width: 180px;
+  }
   /* footer start */
   .footer-des .paragraph-font-2 {
     width: 100%;
   }
-  .button {
+  /* .button {
     left: 42%;
-    width: 100px;
+    width: 200px;
     height: 100px;
+  } */
+  /* .button h2 {
+    font-size: 20px;
+  } */
+  .Newsletter-section {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 430px;
+  }
+  .Newsletter-content {
+    width: 80%;
+  }
+  .Newsletter-img {
+    width: 100%;
   }
 }
