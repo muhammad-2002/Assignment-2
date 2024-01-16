@@ -125,6 +125,29 @@
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
   }
+
+  /* Dels and Discound */
+  .banner-image-1,
+  .banner-image-2,
+  .banner-image-3 {
+    width: 100%;
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .banner-section-2 {
+    width: 100%;
+  }
+  .banner-inner-card-container {
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 200px;
+  }
+  .reserved .banner-inner-card-container {
+    flex-direction: column;
+  }
   /* Newsletter-section */
 
   .Newsletter-section {
