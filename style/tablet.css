@@ -4,6 +4,7 @@
     width: 90%;
     margin: 0 auto;
   }
+
   .gap > * {
     margin-bottom: 20px;
   }
@@ -74,5 +75,10 @@
   /* footer start */
   .footer-des .paragraph-font-2 {
     width: 100%;
+  }
+  .button {
+    left: 42%;
+    width: 100px;
+    height: 100px;
   }
 }

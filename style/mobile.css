@@ -203,12 +203,33 @@
     margin-top: 30px;
   }
 }
+@media screen and (max-width: 553px) {
+  .button {
+    left: 45%;
+  }
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+  }
+  .watching-video {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 400px) {
   .button {
     width: 200px;
     height: 80px;
     left: 43%;
     bottom: 20%;
+  }
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+  }
+  .content {
+    margin-top: 150px;
   }
   .upcoming-event {
     margin-bottom: 400px;
@@ -223,5 +244,16 @@
   }
   .upcoming-event {
     margin-bottom: 400px;
+  }
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+  }
+  .button {
+    left: 30%;
+  }
+  .content {
+    margin-top: 100px;
   }
 }
