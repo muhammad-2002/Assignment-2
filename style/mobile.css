@@ -69,6 +69,53 @@
   .heading-section {
     font-size: 20px;
   }
+
+  /* why choose us */
+
+  .choose-us-heading {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .why-choose-us-card-1 {
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+  }
+  .why-choose-us-card .card {
+    width: 100%;
+  }
+
+  /* Newsletter-section */
+
+  .Newsletter-section {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 400px;
+  }
+  .Newsletter-content {
+    width: 100%;
+  }
+  .Newsletter-img {
+    width: 100%;
+  }
+  .button {
+    width: 204px;
+    height: 100px;
+    left: 350px;
+  }
+  /* event upcoming */
+  .event-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-1,
+  .section-2 {
+    width: 100%;
+  }
+  .upcoming-event {
+    margin-bottom: 550px;
+  }
   /* footer section start */
 
   .footer-des .paragraph-font-2 {
@@ -83,5 +130,16 @@
   }
   .footer-container .s {
     margin-top: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .button {
+    width: 200px;
+    height: 80px;
+    left: 130px;
+    bottom: 40px;
+  }
+  .upcoming-event {
+    margin-bottom: 400px;
   }
 }
