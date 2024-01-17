@@ -98,14 +98,7 @@
   .footer-des .paragraph-font-2 {
     width: 100%;
   }
-  /* .button {
-    left: 42%;
-    width: 200px;
-    height: 100px;
-  } */
-  /* .button h2 {
-    font-size: 20px;
-  } */
+
   .Newsletter-section {
     flex-direction: column;
     gap: 50px;
@@ -116,5 +109,23 @@
   }
   .Newsletter-img {
     width: 100%;
+  }
+}
+/* laptop */
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .button {
+    left: 35%;
+    bottom: 20%;
+  }
+  .content {
+    margin-top: 50px;
+  }
+  .explore-travel {
+    min-height: 420px;
   }
 }
